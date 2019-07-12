@@ -1,0 +1,72 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ProgrammingAssignment3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // variable for deck and dealer and player hands
+            ConsoleCards.BlackjackHand dealerHand = new ConsoleCards.BlackjackHand("Dealer");
+            ConsoleCards.BlackjackHand playerHand = new ConsoleCards.BlackjackHand("Player");
+            ConsoleCards.Deck deck = new ConsoleCards.Deck();
+
+            // Print a welcome message
+            Console.WriteLine("Welcome, you will now play a single hand of blackjack.\n\n");
+            
+            // Shuffle the cards
+            deck.Shuffle();
+
+            // Deal two cards to player and the dealer
+            for (int counter = 0; counter < 2; counter++)
+            {
+                playerHand.AddCard(deck.TakeTopCard());
+                dealerHand.AddCard(deck.TakeTopCard());
+            }
+
+            // Set up cards
+            playerHand.ShowAllCards();
+            dealerHand.ShowFirstCard();
+
+            // Display Cards to the player
+            playerHand.Print();
+            Console.WriteLine();
+            dealerHand.Print();
+
+            // Find out whether the player wants another card
+            Console.Write("\n\nHit? (y or n): ");
+            string playerMove = Console.ReadLine();
+            if (playerMove.ToLower() == "y")
+            {
+                Console.WriteLine("Taking Another Card...\n\n");
+                playerHand.AddCard(deck.TakeTopCard());
+                playerHand.ShowAllCards();
+            }
+
+            // Reveal Dealer cards and display final hands
+            dealerHand.ShowAllCards();
+            playerHand.Print();
+            Console.WriteLine();
+            dealerHand.Print();
+            Console.WriteLine("Player score: " + playerHand.Score + "\nDealer Score: " + dealerHand.Score + "\n\n");
+
+            // Work out Who wins and display
+            if (playerHand.Score > 21)
+                Console.WriteLine("Player BUST, Dealer Wins!");
+            else if (dealerHand.Score > 21)
+                Console.WriteLine("Dealer BUST, Player Wins!");
+            else if (dealerHand.Score > playerHand.Score && dealerHand.Score <= 21)
+                Console.WriteLine("Dealer Wins!");
+            else if (playerHand.Score > dealerHand.Score && playerHand.Score <= 21)
+                Console.WriteLine("Player Wins!");
+            else if (playerHand.Score == dealerHand.Score && playerHand.Score <= 21)
+                Console.WriteLine("Game is a draw!");
+
+            Console.WriteLine("\n");
+
+        }
+    }
+}

@@ -1,0 +1,166 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ConsoleCards;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //display the welcome message
+            Console.WriteLine(WelcomeMessage());
+
+            //play the game
+            Game game = PlayGame();
+
+            //Display the final results
+            DisplayerResults(game);
+        }
+     
+        /// <summary>
+        /// Generates welcome message
+        /// </summary>
+        /// <returns></returns>
+        private static string WelcomeMessage()
+        {
+            //build the welcome message
+            StringBuilder strBldr = new StringBuilder();
+            strBldr.AppendLine("**********************************");
+            strBldr.AppendLine("*      WELCOME TO BLACKJACK      *");
+            strBldr.AppendLine("**********************************");
+            return strBldr.ToString();
+        }
+
+        /// <summary>
+        /// The main part of the game
+        /// </summary>
+        /// <returns></returns>
+        private static Game PlayGame()
+        {
+            //create a new instance of the game class
+            Game game = new Game();
+
+            //Display the players hands score
+            DisplayHandInformation(game);
+
+            //loop until the player enters the corrrect character
+            while (AskIfPlayerHits(game))
+            {
+            }
+            
+            return game;
+        }
+
+        /// <summary>
+        /// Displays the results of the game
+        /// </summary>
+        /// <param name="game"></param>
+        private static void DisplayerResults(Game game)
+        {
+            //show the dealers cards
+            game.DealerHand.ShowAllCards();
+
+            //clear the screen and diplay the hands
+            Console.Clear();
+            DisplayHandInformation(game);
+
+            //write out the score
+            Console.WriteLine(String.Format("Dealer score:{0}  Player score:{1}", game.DealerHand.Score, game.PlayerHand.Score));
+        }
+
+
+        /// <summary>
+        /// Ask the player if they want to hit or stand
+        /// </summary>
+        /// <param name="game"></param>
+        /// <returns></returns>
+        private static bool AskIfPlayerHits(Game game)
+        {
+            //set the loop flag 
+            bool loop = true;
+
+            //prompts the player to hit or stand
+            Console.WriteLine("Press (H) to hit and (S) to stand");
+            ConsoleKeyInfo key = Console.ReadKey();
+            if (key.KeyChar.ToString().ToUpper() == "H")
+            {
+                
+                //if they hit add a card
+                game.PlayerHand.AddCard(game.DeckOfCards.TakeTopCard());
+                loop = false;
+            }
+            else if (key.KeyChar.ToString().ToUpper() == "S")
+            {
+                loop = false;
+            }
+            return loop;
+        }
+
+        /// <summary>
+        /// writes out the information to for each hand
+        /// </summary>
+        /// <param name="game"></param>
+        private static void DisplayHandInformation(Game game)
+        {
+            game.DealerHand.Print();
+            game.PlayerHand.Print();
+        }
+
+        /// <summary>
+        /// Generates all that is needed for a new game
+        /// </summary>
+        private class Game
+        {
+            //private variables
+            Deck _deck;
+            BlackjackHand _playerHand;
+            BlackjackHand _dealerHand;
+
+            //public methods
+            public Deck DeckOfCards
+            {
+                get
+                {
+                    return _deck;
+                }
+            }
+            public BlackjackHand PlayerHand
+            {
+                get
+                {
+                    return _playerHand;
+                }
+            }
+            public BlackjackHand DealerHand
+            {
+                get
+                {
+                    return _dealerHand;
+                }
+            }
+
+            //constructor that sets up a new game
+            public Game()
+            {
+                //create a new deck and add players hands
+                _deck = new Deck();
+                _deck.Shuffle();
+                _playerHand = new BlackjackHand("Player");
+                _dealerHand = new BlackjackHand("Dealer");
+
+                //deals the hands for each player
+                _playerHand.AddCard(_deck.TakeTopCard());
+                _playerHand.AddCard(_deck.TakeTopCard());
+                _playerHand.ShowAllCards();
+
+                _dealerHand.AddCard(_deck.TakeTopCard());
+                _dealerHand.AddCard(_deck.TakeTopCard());
+                _dealerHand.ShowFirstCard();
+            }
+        }
+    }
+}

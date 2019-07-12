@@ -1,0 +1,11 @@
+Provider=SQLOLEDB.1;
+Integrated Security=SSPI;
+Persist Security Info=True;
+Data Source=A-DMVAKH-W500\DIMSQL;
+Use Procedure for Prepare=1;
+Auto Translate=True;
+Packet Size=4096;
+Workstation ID=A-DMVAKH-W500;
+Use Encryption for Data=False;
+Tag with column collation when possible=False;
+Initial Catalog=bucky
