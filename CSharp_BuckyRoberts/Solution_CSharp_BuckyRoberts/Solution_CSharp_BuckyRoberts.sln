@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky001_FirstProject", "Bucky001_FirstProject\Bucky001_FirstProject.csproj", "{7DF00E7E-E00F-4AD8-A5A2-92AD0E5350A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky003_ShowingMessageBoxes", "Bucky003_ShowingMessageBoxes\Bucky003_ShowingMessageBoxes.csproj", "{FBFB1D1B-AA03-4E23-AD16-780434407381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky004_Variables", "Bucky004_Variables\Bucky004_Variables.csproj", "{3DD68041-0EE7-4071-A18A-51CB0DC18763}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7DF00E7E-E00F-4AD8-A5A2-92AD0E5350A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DF00E7E-E00F-4AD8-A5A2-92AD0E5350A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DF00E7E-E00F-4AD8-A5A2-92AD0E5350A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFB1D1B-AA03-4E23-AD16-780434407381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFB1D1B-AA03-4E23-AD16-780434407381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFB1D1B-AA03-4E23-AD16-780434407381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFB1D1B-AA03-4E23-AD16-780434407381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD68041-0EE7-4071-A18A-51CB0DC18763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD68041-0EE7-4071-A18A-51CB0DC18763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD68041-0EE7-4071-A18A-51CB0DC18763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD68041-0EE7-4071-A18A-51CB0DC18763}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
