@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky003_ShowingMessageBoxe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky004_Variables", "Bucky004_Variables\Bucky004_Variables.csproj", "{3DD68041-0EE7-4071-A18A-51CB0DC18763}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky005_ChangingPropertiesWithCode", "Bucky005_ChangingPropertiesWithCode\Bucky005_ChangingPropertiesWithCode.csproj", "{2463749E-9B6B-4DA6-A99E-98B53487B17E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky006_IfStatements", "Bucky006_IfStatements\Bucky006_IfStatements.csproj", "{B605976D-07A0-48DA-AEC8-FB3AB55FDFB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{3DD68041-0EE7-4071-A18A-51CB0DC18763}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DD68041-0EE7-4071-A18A-51CB0DC18763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DD68041-0EE7-4071-A18A-51CB0DC18763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2463749E-9B6B-4DA6-A99E-98B53487B17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2463749E-9B6B-4DA6-A99E-98B53487B17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2463749E-9B6B-4DA6-A99E-98B53487B17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2463749E-9B6B-4DA6-A99E-98B53487B17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B605976D-07A0-48DA-AEC8-FB3AB55FDFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B605976D-07A0-48DA-AEC8-FB3AB55FDFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B605976D-07A0-48DA-AEC8-FB3AB55FDFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B605976D-07A0-48DA-AEC8-FB3AB55FDFB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
