@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29009.5
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky001_FirstProject", "Bucky001_FirstProject\Bucky001_FirstProject.csproj", "{7DF00E7E-E00F-4AD8-A5A2-92AD0E5350A4}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky005_ChangingPropertiesWithCode", "Bucky005_ChangingPropertiesWithCode\Bucky005_ChangingPropertiesWithCode.csproj", "{2463749E-9B6B-4DA6-A99E-98B53487B17E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky006_IfStatements", "Bucky006_IfStatements\Bucky006_IfStatements.csproj", "{B605976D-07A0-48DA-AEC8-FB3AB55FDFB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky007_MoreOnIfStatements", "Bucky007_MoreOnIfStatements\Bucky007_MoreOnIfStatements.csproj", "{2E52D5D4-48AC-4DA8-9ED6-181D11D9252B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B605976D-07A0-48DA-AEC8-FB3AB55FDFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B605976D-07A0-48DA-AEC8-FB3AB55FDFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B605976D-07A0-48DA-AEC8-FB3AB55FDFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E52D5D4-48AC-4DA8-9ED6-181D11D9252B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E52D5D4-48AC-4DA8-9ED6-181D11D9252B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E52D5D4-48AC-4DA8-9ED6-181D11D9252B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E52D5D4-48AC-4DA8-9ED6-181D11D9252B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
