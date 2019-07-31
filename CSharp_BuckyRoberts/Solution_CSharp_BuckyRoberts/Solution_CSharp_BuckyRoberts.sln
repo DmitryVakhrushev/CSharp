@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky010_MathematicalOperat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky011_Arrays", "Bucky011_Arrays\Bucky011_Arrays.csproj", "{97AB7F37-8F77-4CD3-A425-4085917B13DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky012_Lists", "Bucky012_Lists\Bucky012_Lists.csproj", "{EB56B9DD-BBF9-46C7-A3BD-81189320FD2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky013_ForAndForeachLoop", "Bucky013_ForAndForeachLoop\Bucky013_ForAndForeachLoop.csproj", "{98CD4D80-998A-4D91-B5E2-04D23A6DF373}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{97AB7F37-8F77-4CD3-A425-4085917B13DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97AB7F37-8F77-4CD3-A425-4085917B13DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97AB7F37-8F77-4CD3-A425-4085917B13DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB56B9DD-BBF9-46C7-A3BD-81189320FD2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB56B9DD-BBF9-46C7-A3BD-81189320FD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB56B9DD-BBF9-46C7-A3BD-81189320FD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB56B9DD-BBF9-46C7-A3BD-81189320FD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CD4D80-998A-4D91-B5E2-04D23A6DF373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CD4D80-998A-4D91-B5E2-04D23A6DF373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CD4D80-998A-4D91-B5E2-04D23A6DF373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CD4D80-998A-4D91-B5E2-04D23A6DF373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
