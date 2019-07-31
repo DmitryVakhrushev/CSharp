@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky012_Lists", "Bucky012_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky013_ForAndForeachLoop", "Bucky013_ForAndForeachLoop\Bucky013_ForAndForeachLoop.csproj", "{98CD4D80-998A-4D91-B5E2-04D23A6DF373}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky015_TryCatchFinally", "Bucky015_TryCatchFinally\Bucky015_TryCatchFinally.csproj", "{6576C887-592F-4FB1-8AE2-FBBF088A313D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky014_DoAndDoWhileLoop", "Bucky014_DoAndDoWhileLoop\Bucky014_DoAndDoWhileLoop.csproj", "{0F64405E-DC46-41F2-B13F-86092FCBCE28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{98CD4D80-998A-4D91-B5E2-04D23A6DF373}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98CD4D80-998A-4D91-B5E2-04D23A6DF373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98CD4D80-998A-4D91-B5E2-04D23A6DF373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6576C887-592F-4FB1-8AE2-FBBF088A313D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6576C887-592F-4FB1-8AE2-FBBF088A313D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6576C887-592F-4FB1-8AE2-FBBF088A313D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6576C887-592F-4FB1-8AE2-FBBF088A313D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F64405E-DC46-41F2-B13F-86092FCBCE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F64405E-DC46-41F2-B13F-86092FCBCE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F64405E-DC46-41F2-B13F-86092FCBCE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F64405E-DC46-41F2-B13F-86092FCBCE28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
