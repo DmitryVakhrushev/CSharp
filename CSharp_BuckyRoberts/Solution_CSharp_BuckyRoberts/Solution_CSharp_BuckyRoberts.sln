@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky016_MethodsPart1", "Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky017_MethodsPart2", "Bucky017_MethodsPart2\Bucky017_MethodsPart2.csproj", "{5EF09ECA-D0C6-4C72-889F-E638F4E01156}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky018_ContinueAndBreak", "Bucky018_ContinueAndBreak\Bucky018_ContinueAndBreak.csproj", "{001A4AF1-C6B7-4E1B-A88D-A3873AAF2421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky019_NamespacesAndClasses", "Bucky019_NamespacesAndClasses\Bucky019_NamespacesAndClasses.csproj", "{829D6B8F-95CA-4E3A-98DF-9A8BB4B49FD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{5EF09ECA-D0C6-4C72-889F-E638F4E01156}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF09ECA-D0C6-4C72-889F-E638F4E01156}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF09ECA-D0C6-4C72-889F-E638F4E01156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001A4AF1-C6B7-4E1B-A88D-A3873AAF2421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001A4AF1-C6B7-4E1B-A88D-A3873AAF2421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001A4AF1-C6B7-4E1B-A88D-A3873AAF2421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001A4AF1-C6B7-4E1B-A88D-A3873AAF2421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829D6B8F-95CA-4E3A-98DF-9A8BB4B49FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829D6B8F-95CA-4E3A-98DF-9A8BB4B49FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829D6B8F-95CA-4E3A-98DF-9A8BB4B49FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829D6B8F-95CA-4E3A-98DF-9A8BB4B49FD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
