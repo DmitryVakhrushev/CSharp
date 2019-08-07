@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9 Simple Text Editor", "9 Simple Text Editor\9 Simple Text Editor.csproj", "{1F3FE199-297A-4BB0-9E13-E78433204CCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3FE199-297A-4BB0-9E13-E78433204CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3FE199-297A-4BB0-9E13-E78433204CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3FE199-297A-4BB0-9E13-E78433204CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3FE199-297A-4BB0-9E13-E78433204CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

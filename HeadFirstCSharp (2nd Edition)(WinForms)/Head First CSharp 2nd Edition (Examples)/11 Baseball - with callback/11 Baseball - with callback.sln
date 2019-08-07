@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 Baseball - with callback", "11 Baseball - with callback\11 Baseball - with callback.csproj", "{3869CBE8-2EAD-495B-937E-0B5D16997C90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3869CBE8-2EAD-495B-937E-0B5D16997C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3869CBE8-2EAD-495B-937E-0B5D16997C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3869CBE8-2EAD-495B-937E-0B5D16997C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3869CBE8-2EAD-495B-937E-0B5D16997C90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
