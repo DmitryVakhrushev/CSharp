@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky022_OverloadingAndEnum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky023_CreatingYourOwnProperties", "Bucky023_CreatingYourOwnProperties\Bucky023_CreatingYourOwnProperties.csproj", "{FAFF3458-BD6C-4059-B362-D3132101E292}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky024_ThrowingExceptions", "Bucky024_ThrowingExceptions\Bucky024_ThrowingExceptions.csproj", "{A8CEB2FF-1B26-4845-9288-EA68FC29C345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky025_InheritanceAndOverriding", "Bucky025_InheritanceAndOverriding\Bucky025_InheritanceAndOverriding.csproj", "{7B1CDC65-90FF-4CB6-A797-75027752F929}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{FAFF3458-BD6C-4059-B362-D3132101E292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAFF3458-BD6C-4059-B362-D3132101E292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAFF3458-BD6C-4059-B362-D3132101E292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8CEB2FF-1B26-4845-9288-EA68FC29C345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8CEB2FF-1B26-4845-9288-EA68FC29C345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8CEB2FF-1B26-4845-9288-EA68FC29C345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8CEB2FF-1B26-4845-9288-EA68FC29C345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1CDC65-90FF-4CB6-A797-75027752F929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1CDC65-90FF-4CB6-A797-75027752F929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1CDC65-90FF-4CB6-A797-75027752F929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1CDC65-90FF-4CB6-A797-75027752F929}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
