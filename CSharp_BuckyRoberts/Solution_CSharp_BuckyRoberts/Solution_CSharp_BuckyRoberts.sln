@@ -63,6 +63,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky030_Abstract", "Bucky0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky031_Delegates", "Bucky031_Delegates\Bucky031_Delegates.csproj", "{87237B7D-13A6-42B3-9E4B-B863B2FC9F78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky032_Events", "Bucky032_Events\Bucky032_Events.csproj", "{E1F4155E-79FD-45C5-B7BA-667F5E0B7DB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucky033_TernaryOperator", "Bucky033_TernaryOperator\Bucky033_TernaryOperator.csproj", "{668316F9-85FA-40C3-8BAE-76690BE01486}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +193,14 @@ Global
 		{87237B7D-13A6-42B3-9E4B-B863B2FC9F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87237B7D-13A6-42B3-9E4B-B863B2FC9F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87237B7D-13A6-42B3-9E4B-B863B2FC9F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F4155E-79FD-45C5-B7BA-667F5E0B7DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F4155E-79FD-45C5-B7BA-667F5E0B7DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F4155E-79FD-45C5-B7BA-667F5E0B7DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F4155E-79FD-45C5-B7BA-667F5E0B7DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668316F9-85FA-40C3-8BAE-76690BE01486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668316F9-85FA-40C3-8BAE-76690BE01486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668316F9-85FA-40C3-8BAE-76690BE01486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668316F9-85FA-40C3-8BAE-76690BE01486}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
